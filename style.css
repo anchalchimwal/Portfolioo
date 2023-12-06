@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Nunito:wght@300&family=Poppins:wght@300;400;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  background-color: rgb(30, 7, 84);
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  list-style: none;
+  margin: 0 23px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+nav ul li a:hover {
+  color: rgb(67, 67, 116);
+  font-size: 1.02rem;
+}
+.left {
+  font-size: 1.5 rem;
+}
+.firstSection {
+  display: flex;
+  justify-content: space-around;
+  margin: 60px 0;
+  align-items: center;
+}
+.firstSection > div {
+  width: 35%;
+}
+.leftSection {
+  font-size: 2rem;
+  /*background-image: url(background.png);
+  width: 100%;
+  height: 100vh;*/
+}
+.rightSection img {
+  width: 80%;
+}
+.purple {
+  color: rgb(100, 55, 137);
+}
+#element {
+  color: rgb(100, 55, 137);
+}
+.secondSection {
+  max-width: 80vw;
+  margin: auto;
+  height: 80vh;
+}
+.secondSection h1 {
+  font-size: 1.9rem;
+}
+.main hr {
+  border: 0;
+  background: rgb(80, 60, 127);
+  height: 1.2px;
+  margin: 40px 84px;
+}
+.secondSection .box {
+  background: white;
+  width: 48vw;
+  height: 2px;
+  margin: 56px 0;
+  display: flex;
+}
+.text-gray {
+  color: gray;
+}
+secondSection .vertical {
+  height: 93px;
+  width: 1px;
+  background-color: white;
+  margin: 0, 120px;
+}
+.imagetop {
+  width: 28px;
+  position: relative;
+  top: -32px;
+  left: -3px;
+}
+.vertical-title {
+  position: relative;
+  top: 75px;
+  font-size: 14px;
+  width: 150px;
+}
+.vertical-desc {
+  position: relative;
+  top: 86px;
+  color: grey;
+  width: 150px;
+  font-size: 9px;
+}
+footer {
+  background-color: rgb(31, 7, 89);
+}
+.footer {
+  display: flex;
+  padding: 23px 122px;
+  justify-content: space-evenly;
+}
+.footer ul {
+  list-style: none;
+}
+.footer > div {
+  width: 223px;
+}
+footer .text-center {
+  text-align: center;
+  color: gray;
+  padding: 12px;
+}
+.leftSection .btn {
+  padding: 12px;
+  background-color: rgb(31, 15, 88);
+  color: white;
+  border: 2px solid white;
+  border-radius: 6px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.leftSection .button {
+  padding: 50px 0;
+}
